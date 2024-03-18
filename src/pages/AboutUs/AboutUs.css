@@ -1,0 +1,51 @@
+.about-container {
+  width: 100%;
+  background-image: url(/public/menu-pızza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  row-gap: 20px;
+}
+
+.about-title {
+  width: 250px;
+  text-align: center;
+  margin: 16px auto;
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: rgba(235, 162, 113, 0.75);
+}
+
+.about-info {
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: rgba(235, 162, 113, 0.75);
+  padding: 10px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.about-info::-webkit-scrollbar {
+  width: 12px;
+}
+
+.about-info::-webkit-scrollbar-track {
+  background-color: #eba271;
+}
+
+.about-info::-webkit-scrollbar-thumb {
+  background: #dd742e;
+  transition: 0.5s all ease;
+}
+
+.about-info::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+  cursor: pointer;
+}
